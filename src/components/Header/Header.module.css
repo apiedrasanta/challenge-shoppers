@@ -1,0 +1,48 @@
+.Header {
+    padding: 2em;
+}
+
+.Header__content {
+    display: flex;
+}
+
+.Header__search {
+    flex: 1;
+    text-align: left;
+}
+
+.Header__search * {
+    display: inline-block;
+}
+
+.Header__search input {
+    width: inherit;
+    border: 0;
+}
+
+.Header__title {
+    flex: 2;
+    text-align: center;
+}
+
+.Header__title h1 {
+    color: #333;
+    letter-spacing: 3px;
+    font-size: 1.6em;
+    font-weight: 300;
+    border: 3px solid;
+    display: inline-block;
+    padding: 0.2em 0.6em;
+}
+
+.Header__icons {
+    flex: 1;
+    text-align: right;
+}
+
+.Header__icons i {
+    display: inline-block;
+    margin-left: 1em;
+    font-size: 1.2em;
+    cursor: pointer;
+}

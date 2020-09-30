@@ -1,0 +1,22 @@
+.ShopPicture > div{
+    display: flex;
+    align-items: center;
+}
+
+.ShopPicture > div:last-child > div {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 2em;
+}
+
+.ShopPicture > div:last-child > div h3 {
+    font-size: 2.5em;
+    color: #444;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 720px) {
+    .ShopPicture > div {
+        display: block;
+    }   
+}

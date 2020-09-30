@@ -1,0 +1,38 @@
+.Slider {
+    margin-bottom: 4em;
+}
+
+.Slider__description__1 {
+    width: 400px;
+    position: absolute;
+    vertical-align: middle;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    right: 4em;
+}
+
+.Slider__description__1 > div {
+    margin-top: 40%;
+    color: #333;
+}
+
+.Slider__description__1 > div h2 {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.Slider__content {
+    position: relative;
+}
+
+@media screen and (max-width: 720px) {
+    .Slider__description__1 {
+        position: static;
+        margin: 0;
+        width: 100%;
+    }
+    .Slider__description__1 > div {
+        margin: 0;
+    }
+}

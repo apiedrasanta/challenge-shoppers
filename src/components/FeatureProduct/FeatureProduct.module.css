@@ -1,0 +1,26 @@
+.FeatureProduct {}
+
+.FeatureProduct__slide figcaption {
+    padding: 1em;
+    text-align: center;
+}
+
+.FeatureProduct__slide figcaption span {
+    color: #9b4dca;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.FeatureProduct__slide figcaption h3 {
+    color: #9b4dca;
+    font-weight: bold;
+}
+.FeatureProduct__slide figcaption * {
+    margin: 0;
+}
+
+@media screen and (max-width: 720px) {
+    .FeatureProduct {
+        width: 100%;
+    }
+}

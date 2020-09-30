@@ -1,0 +1,28 @@
+.SliderAside {}
+
+.SliderAside ul {
+    list-style: none;
+    display: flex;
+}
+
+.SliderAside ul li div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.SliderAside ul li div:first-child {
+    font-size: 2em;
+    width: 15%;
+    color: #9b4dca;
+}
+
+.SliderAside ul li div:last-child {
+    width: 80%;
+}
+
+@media screen and (max-width: 720px) {
+    .SliderAside ul {
+        display: block;
+        width: 100%;
+    }
+}

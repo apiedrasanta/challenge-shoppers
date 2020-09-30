@@ -25,8 +25,83 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+
+    <!-- Google Fonts -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+    <!-- You should properly set the path from the main file. -->
+    <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   </head>
   <body>
+    <style type="text/css" >
+      body {
+        font-family: 'Mukta', sans-serif;
+      }
+
+      @font-face {
+        font-family: 'icomoon';
+        src:  url('/fonts/icomoon.eot?ahyzg4');
+        src:  url('/fonts/icomoon.eot?ahyzg4#iefix') format('embedded-opentype'),
+          url('/fonts/icomoon.ttf?ahyzg4') format('truetype'),
+          url('/fonts/icomoon.woff?ahyzg4') format('woff'),
+          url('/fonts/icomoon.svg?ahyzg4#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+      }
+
+      [class^="icon-"], [class*=" icon-"] {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'icomoon' !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      .icon-help:before {
+        content: "\e901";
+      }
+      .icon-heart-o:before {
+        content: "\e900";
+      }
+      .icon-cart:before {
+        content: "\e93a";
+      }
+      .icon-user:before {
+        content: "\e971";
+      }
+      .icon-spinner11:before {
+        content: "\e984";
+      }
+      .icon-search:before {
+        content: "\e986";
+      }
+      .icon-truck:before {
+        content: "\e9b0";
+      }
+      .icon-heart:before {
+        content: "\e9da";
+      }
+
+      hr {
+        margin: 2.5rem 0;
+      }
+    </style>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

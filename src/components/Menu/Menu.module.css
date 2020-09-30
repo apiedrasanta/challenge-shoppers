@@ -1,0 +1,39 @@
+.Menu {
+    padding: 2em 0;
+}
+
+.Menu nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.Menu nav ul li {
+    text-align: center;
+    display: inline-block;
+    margin: 0 2em;
+}
+
+.Menu nav ul a {
+    color: #333;
+}
+
+@media screen and (max-width: 720px) {
+    .Menu nav ul li {
+        margin: 0 1em;
+    }
+}
+
+/* Larger than tablet screen */
+/* @media (min-width: 80.0rem) {
+    .Menu {
+        background-color:  blue;
+    }
+}*/
+
+/* Larger than desktop screen */
+
+/*@media (min-width: 120.0rem) {
+
+} */
